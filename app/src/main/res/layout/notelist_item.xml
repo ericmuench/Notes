@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listCard"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.view.menu.ListMenuItemView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listitem">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/textview_content_headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="content"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textview_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview_content_headline"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="8dp"
+                android:text="date"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.view.menu.ListMenuItemView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/listitem"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="" />
+
+</RelativeLayout>

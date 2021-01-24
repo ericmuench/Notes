@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="please_enter_some_text">Please enter some text ;)</string>
+    <string name="edit_note">Edit Note</string>
+
+
+    <!--avalible languages-->
+    <string-array name="availible_languages">
+        <item>english</item>
+        <item>german</item>
+        <item>french</item>
+    </string-array>
+</resources>

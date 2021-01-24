@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notizen</string>
+    <string name="please_enter_some_text">Gib einen Text ein ;)</string>
+    <string name="edit_note">Notiz bearbeiten</string>
+
+    <!--verfügbare Sprachen-->
+    <string-array name="availible_languages">
+        <item>englisch</item>
+        <item>deutsch</item>
+        <item>französisch</item>
+    </string-array>
+</resources>
